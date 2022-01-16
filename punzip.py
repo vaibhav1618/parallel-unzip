@@ -57,6 +57,7 @@ def fanout_unziptar(path):
     for root, dirs, files in os.walk(path):
         for dir in dirs:
             fanout_unziptar(os.path.join(root, dir))
+        break
 
 
 if __name__ == "__main__":
