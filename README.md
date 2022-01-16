@@ -1,2 +1,2 @@
 # punzip-python
-Unzip zstd, tar & zstd.tar files in parallel.
+Parallel-unzip: Recursively traverses through the directories and unzips zstd, tar & zstd.tar files in parallel. 
